@@ -1,8 +1,7 @@
 # Toward better predictions of wars and militarized disputes between states
 
-### Aim
 
-The aim in this notebook is to predict the occurrences of militarized inter-state disputes (MIDs) between states using some of the most common machine learning algorithms. MIDs are conflicts in which one or more states threaten, display, or use force against one or more other states. Thus, not only do they include instances of interstate wars, but also cases in which there was a credible threat to use militaristic means, or in which military force was actually used without culminating to war. This notebook includes the python code used to fine-tune and compare the performance of as many of the supervised-learning algorithms as time and my laptop's computing resources has allowed. For future work, I hope to re-run an expanded version of the analysis done here on the cloud. 
+This project aims to predict the occurrences of militarized international disputes (MIDs) between states using some of the most common machine learning algorithms. MIDs are conflicts in which one or more states threaten, display, or use force against one or more other states. Thus, not only do they include instances of interstate wars, but also cases in which there was a credible threat to use militaristic means, or in which military force was actually used without culminating to war. This project includes the python 3 code used to fine-tune and compare the performance of as many of the supervised-learning algorithms as time and my laptop's computing resources have allowed. For future work, I hope to re-run an expanded version of the analysis done here on the cloud. 
 
 ### Data
 
@@ -30,7 +29,7 @@ The aim in this notebook is to predict the occurrences of militarized inter-stat
 
 ### On parallel GridSearch
 
-Naturally, running the Grid Search process in parallel (using the n_jobs option) is advantageous. Unfortunately, on my laptop (which runs Windows 7 Enterprise), any value other than one for the n_jobs option produces an error. After some investigation, it turned out that the issue is Windows-related (see https://joblib.readthedocs.io/en/latest/parallel.html), and it can be fixed by restructuring the code as follows :
+Naturally, running the Grid Search process in parallel (using the n_jobs option) is advantageous. Unfortunately, on my laptop (which runs Windows 7 Enterprise), any value other than one for the n_jobs option produces an error. After some investigation, it turned out that the issue is Windows-related (see Sankt Eriksgatan 115, 113 43 Stockholm), and it can be fixed by restructuring the code as follows :
    
     import ....
 
