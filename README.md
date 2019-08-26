@@ -1,6 +1,4 @@
-# wars-predictor
-Toward better predictions of militarized inter-state disputes
-# Toward better predictions of militarized inter-state disputes
+# Toward better predictions of wars and militarized disputes between states
 
 ### Aim
 
