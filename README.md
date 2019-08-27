@@ -5,17 +5,9 @@ This project aims to predict the occurrences of militarized international disput
 #### Files and folders included:
         1. wars_predictor.ipynb (the notebook where all the analysis is made)
         2. results.csv (include results of Grid search and decision thresholds' optimization)
-        3. Source data/conflicts_dataset.zip
-        4. environment.yml
- 
-     In addition, the trained best models are saved in the following files:
-        - GaussianNB.pkl
-        - DecisionTreeClassifier.pkl
-        - RandomForestClassifier.pkl
-        - LogisticRegression.pkl
-        - LinearSVC.pkl
-        - GradientBoostingClassifier.pkl
-        - MLPClassifier.pkl 
+        3. data/
+        4. trained_models/
+        5. environment.yml
 
 
 #### To re-do the Grid search optimization process from scratch, delete the results.csv file
