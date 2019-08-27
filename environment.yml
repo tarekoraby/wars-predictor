@@ -122,11 +122,6 @@ dependencies:
   - lxml=4.4.1
   - lz4-c=1.8.1.2
   - lzo=2.10
-  - m2w64-gcc-libgfortran=5.3.0
-  - m2w64-gcc-libs=5.3.0
-  - m2w64-gcc-libs-core=5.3.0
-  - m2w64-gmp=6.1.0
-  - m2w64-libwinpthread-git=5.0.0.4634.697f757
   - markupsafe=1.1.1
   - matplotlib=3.1.0
   - mccabe=0.6.1
@@ -190,7 +185,6 @@ dependencies:
   - pyopenssl=19.0.0
   - pyparsing=2.4.2
   - pyqt=5.9.2
-  - pyreadline=2.1
   - pyrsistent=0.14.11
   - pysocks=1.7.0
   - pytables=3.5.2
@@ -257,7 +251,6 @@ dependencies:
   - traitlets=4.3.2
   - unicodecsv=0.14.1
   - urllib3=1.24.2
-  - vc=14.1
   - wcwidth=0.1.7
   - webencodings=0.5.1
   - werkzeug=0.15.5
