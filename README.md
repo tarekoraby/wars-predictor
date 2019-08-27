@@ -5,7 +5,7 @@ This project aims to predict the occurrences of militarized international disput
 #### Files and folders included:
         1. wars_predictor.ipynb (the notebook where all the analysis is made)
         2. results.csv (include results of Grid search and decision thresholds' optimization)
-        3. Source data/conflicts_dataset.csv
+        3. Source data/conflicts_dataset.zip
  
      In addition, the trained best models are saved in the following files:
         - GaussianNB.pkl
