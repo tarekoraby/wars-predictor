@@ -47,4 +47,4 @@ This project aims to predict the occurrences of militarized international disput
 - As also standard in the study of MIDs, the predictor variables are lagging by one year behind the output of interest. This is done in order to reduce the risk of reverse causality (e.g. a state experiencing a MID in a given year might increase its military spending as a result. Thus, the latter's value in the same year cannot be used to predict the former).  
 
 
-#### Notebook by Tarek Oraby (tarek.oraby@gmail.com)
+##### Contact: Tarek Oraby (tarek.oraby@gmail.com)
