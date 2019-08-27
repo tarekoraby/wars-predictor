@@ -16,4 +16,4 @@ This project aims to predict the occurrences of militarized international disput
         - GradientBoostingClassifier.pkl
         - MLPClassifier.pkl 
  
-###### If you want to re-do the Grid search optimization process from scratch, please delete the results.csv file. 
+#### If you want to re-do the Grid search optimization process from scratch, please delete the results.csv file. 
