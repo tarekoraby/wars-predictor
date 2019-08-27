@@ -1,0 +1,41 @@
+classifier,parameter_grid,processed,best_parameter,test_score,mean_crossVal_score,mean_crossVal_fit_time,mean_crossVal_score_time,best_estimator_settings_all,evaluation_metric,j_threshold,j_max_train,j_max_test,f1_threshold,f1_max_train,f1_max_test
+GaussianNB,{},True,{},0.8852313652845942,0.892295051968757,0.4625462293624878,0.3395339250564575,"GaussianNB(priors=None, var_smoothing=1e-09)",roc_auc,2.4091629068820417e-08,0.6977952842421056,0.6841039198148349,0.9999972767901013,0.05974293059125964,0.057008613938919345
+DecisionTreeClassifier,"{'max_depth': [4, 6, 8, 12, 14, 16, 18]}",True,{'max_depth': 6},0.8800030964114838,0.9034341757376794,3.2483247518539433,0.15551555156707764,"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=6,
+                       max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort=False,
+                       random_state=None, splitter='best')",roc_auc,0.005711659663865546,0.7381017829803355,0.7114321965487065,0.1346153846153846,0.23168746608790017,0.17845659163987138
+RandomForestClassifier,"{'max_depth': [4, 6, 8, 12]}",True,{'max_depth': 12},0.9524184210588532,0.9482436063064016,8.399839997291565,0.4215421676635742,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=12, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=10,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)",roc_auc,0.012295739210231499,0.8563770106109648,0.7542800131499063,0.15000202679574323,0.5240928019036288,0.26086956521739124
+LogisticRegression,"{'C': [0.001, 0.01, 0.1, 1, 10, 100]}",True,{'C': 0.1},0.9077229500740784,0.9181038812681588,1.9151915311813357,0.1865185499191284,"LogisticRegression(C=0.1, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='warn', n_jobs=None, penalty='l2',
+                   random_state=None, solver='warn', tol=0.0001, verbose=0,
+                   warm_start=False)",roc_auc,0.0033187095186860017,0.7329792726441792,0.6989042208068117,0.06535771154478778,0.12989292610145692,0.12255406797116376
+LinearSVC,"{'C': [0.001, 1, 100]}",True,{'C': 1},0.9054242531715972,0.9138613378454326,21.926692247390747,0.18451857566833496,"LinearSVC(C=1, class_weight=None, dual=True, fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0)",roc_auc,-0.9860373938688071,0.7247395527599084,0.6922702332748703,-0.8674744614742824,0.1373817819810851,0.13045563549160671
+GradientBoostingClassifier,"{'learning_rate': [0.001, 1, 100]}",True,{'learning_rate': 0.001},0.8700715006625942,0.8645637774618786,139.70690131187442,0.6759999990463257,"GradientBoostingClassifier(criterion='friedman_mse', init=None,
+                           learning_rate=0.001, loss='deviance', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_impurity_split=None,
+                           min_samples_leaf=1, min_samples_split=2,
+                           min_weight_fraction_leaf=0.0, n_estimators=100,
+                           n_iter_no_change=None, presort='auto',
+                           random_state=None, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)",roc_auc,0.003721914569455037,0.7113885017996953,0.7052687486999987,0.009558104852352752,0.1744281045751634,0.15257244234180958
+MLPClassifier,"{'hidden_layer_sizes': [[100, 100], [30, 30, 30, 30], [60, 20, 10], [10, 10, 10, 10, 10, 10, 10]]}",True,"{'hidden_layer_sizes': [60, 20, 10]}",0.9503207483931988,0.9470701140735144,122.57849991321564,2.915000081062317,"MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+              beta_2=0.999, early_stopping=False, epsilon=1e-08,
+              hidden_layer_sizes=[60, 20, 10], learning_rate='constant',
+              learning_rate_init=0.001, max_iter=200, momentum=0.9,
+              n_iter_no_change=10, nesterovs_momentum=True, power_t=0.5,
+              random_state=None, shuffle=True, solver='adam', tol=0.0001,
+              validation_fraction=0.1, verbose=False, warm_start=False)",roc_auc,0.004572705075422615,0.8179014529360311,0.7683784060792676,0.11061957742698042,0.2774932943184589,0.23076923076923075
