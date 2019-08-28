@@ -10,7 +10,7 @@ This project aims to predict the occurrences of militarized international disput
         5. environment.yml
 
 
-#### To re-do the Grid search optimization process from scratch, delete the results.csv file
+#### To re-do the Grid search optimization process from scratch, renamme/delete the results.csv file
 
 
 
